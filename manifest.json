@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-28T21:50:26.128Z",
+  "selectorManifest": {
+    "schemaVersion": 1,
+    "keyId": "selector-key-1",
+    "createdAt": "2026-06-28T21:50:26.129Z",
+    "signatureEncoding": "base64",
+    "signature": "1lIP0hb6E6elB0ZVPPtK01JZPkp99JY9dGXBfFXtjWtBG3LTUUNtgXjlT2P/OhKbn01xRvnAykESQfE4dbPiCQ==",
+    "payload": {
+      "schemaVersion": 1,
+      "manifestVersion": "builtin-2026-06-28",
+      "selectors": {
+        "whatsapp.message.container": {
+          "candidates": [
+            {
+              "selector": "[data-testid^=\"conv-msg-\"][data-id]"
+            }
+          ],
+          "pickStrategy": "all",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.tail.out": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"tail-out\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.tail.in": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"tail-in\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.meta": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"msg-meta\"][role=\"button\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.text.stable": {
+          "candidates": [
+            {
+              "selector": "[data-pre-plain-text] [data-testid=\"selectable-text\"]"
+            }
+          ],
+          "pickStrategy": "all",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.text.fallback": {
+          "candidates": [
+            {
+              "selector": "span.selectable-text"
+            },
+            {
+              "selector": "div.copyable-text span[dir=\"ltr\"]"
+            },
+            {
+              "selector": "div.copyable-text span[dir=\"auto\"]"
+            }
+          ],
+          "pickStrategy": "all",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.message.quoted": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"quoted-message\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.message.textHost": {
+          "candidates": [
+            {
+              "selector": "[data-pre-plain-text]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "none"
+        },
+        "whatsapp.accountAvatar.navigationReady": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"navbar-item-me-tab-photo\"]"
+            },
+            {
+              "selector": "[data-navbar-item=\"true\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.accountAvatar.image": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"navbar-item-me-tab-photo\"] img"
+            },
+            {
+              "selector": "button[aria-label=\"自己\"] img"
+            },
+            {
+              "selector": "button[aria-label=\"You\"] img"
+            },
+            {
+              "selector": "button[aria-label=\"Profile\"] img"
+            },
+            {
+              "selector": "button[data-navbar-item=\"true\"][data-navbar-item-index=\"6\"] img"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.accountAvatar.profileButton": {
+          "candidates": [
+            {
+              "selector": "button[aria-label=\"自己\"]"
+            },
+            {
+              "selector": "button[aria-label=\"You\"]"
+            },
+            {
+              "selector": "button[aria-label=\"Profile\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.composer.editor": {
+          "candidates": [
+            {
+              "selector": "footer div[contenteditable=\"true\"]"
+            },
+            {
+              "selector": "div[role=\"textbox\"][contenteditable=\"true\"][data-tab]"
+            },
+            {
+              "selector": "div[aria-placeholder][contenteditable=\"true\"]"
+            },
+            {
+              "selector": "div[contenteditable=\"true\"][spellcheck=\"true\"]"
+            },
+            {
+              "selector": "div[contenteditable=\"true\"]"
+            }
+          ],
+          "pickStrategy": "lastVisible",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.composer.sendButton": {
+          "candidates": [
+            {
+              "selector": "span[data-icon=\"send\"], [data-icon=\"send\"]"
+            },
+            {
+              "selector": "footer button[aria-label*=\"Send\"]"
+            },
+            {
+              "selector": "footer button[aria-label*=\"发送\"]"
+            },
+            {
+              "selector": "footer button[aria-label*=\"傳送\"]"
+            },
+            {
+              "selector": "footer button"
+            }
+          ],
+          "pickStrategy": "firstVisible",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.composer.emoji": {
+          "candidates": [
+            {
+              "selector": "[data-emoji-index]"
+            },
+            {
+              "selector": "[data-emoji]"
+            },
+            {
+              "selector": "[aria-label*=\"emoji\" i]"
+            },
+            {
+              "selector": "[aria-label*=\"表情\" i]"
+            },
+            {
+              "selector": "[data-icon*=\"emoji\" i]"
+            },
+            {
+              "selector": "[data-icon=\"smiley\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        }
+      }
+    }
+  },
+  "app": {
+    "latestVersion": "0.1.0",
+    "minimumVersion": "0.1.0",
+    "downloads": {
+      "win32X64": {
+        "url": "",
+        "sha256": "",
+        "size": 0
+      }
+    },
+    "releaseNotesUrl": ""
+  },
+  "signalCli": {
+    "latestVersion": "0.14.5",
+    "healthCheckTimeoutMs": 15000,
+    "runtimes": {
+      "win32X64": {
+        "signalCli": {
+          "url": "",
+          "sha256": "",
+          "size": 0
+        },
+        "java": {
+          "vendor": "Eclipse Temurin",
+          "version": "25.0.3+9-LTS",
+          "url": "",
+          "sha256": "",
+          "size": 0
+        }
+      }
+    }
+  }
+}
