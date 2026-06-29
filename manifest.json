@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T01:11:32.029Z",
+  "generatedAt": "2026-06-29T03:19:08.047Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-06-29T01:11:32.029Z",
+    "createdAt": "2026-06-29T03:19:08.047Z",
     "signatureEncoding": "base64",
     "signature": "1lIP0hb6E6elB0ZVPPtK01JZPkp99JY9dGXBfFXtjWtBG3LTUUNtgXjlT2P/OhKbn01xRvnAykESQfE4dbPiCQ==",
     "payload": {
@@ -209,22 +209,16 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-06-29T01:11:32.029Z",
+    "createdAt": "2026-06-29T03:19:08.047Z",
     "signatureEncoding": "base64",
-    "signature": "BFtKG1XMkVbFqVLCSfHlWpp3Cp0h6uCqBTBjg4sDnyRePdhUpHeVTtbj6pn7yqogHhj/LevlCDYz8WQ/tKkfAQ==",
+    "signature": "EchnqZvrukOXbRzexCo11xx7xkVZdPajOEWYtlaUshXU9xA0qULIauk22fdgQYfvkoDg1uUK157pp+lsnR9FDA==",
     "payload": {
       "schemaVersion": 1,
       "app": {
         "latestVersion": "0.1.0",
         "minimumVersion": "0.1.0",
-        "downloads": {
-          "win32X64": {
-            "url": "",
-            "sha256": "",
-            "size": 0
-          }
-        },
-        "releaseNotesUrl": ""
+        "releaseNotesUrl": "",
+        "updatePolicy": "optional"
       },
       "signalCli": {
         "latestVersion": "0.14.5",
