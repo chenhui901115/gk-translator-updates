@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T21:50:26.128Z",
+  "generatedAt": "2026-06-29T00:32:01.164Z",
   "selectorManifest": {
     "schemaVersion": 1,
-    "keyId": "selector-key-1",
-    "createdAt": "2026-06-28T21:50:26.129Z",
+    "keyId": "update-key-1",
+    "createdAt": "2026-06-29T00:32:01.164Z",
     "signatureEncoding": "base64",
     "signature": "1lIP0hb6E6elB0ZVPPtK01JZPkp99JY9dGXBfFXtjWtBG3LTUUNtgXjlT2P/OhKbn01xRvnAykESQfE4dbPiCQ==",
     "payload": {
@@ -206,34 +206,44 @@
       }
     }
   },
-  "app": {
-    "latestVersion": "0.1.0",
-    "minimumVersion": "0.1.0",
-    "downloads": {
-      "win32X64": {
-        "url": "",
-        "sha256": "",
-        "size": 0
-      }
-    },
-    "releaseNotesUrl": ""
-  },
-  "signalCli": {
-    "latestVersion": "0.14.5",
-    "healthCheckTimeoutMs": 15000,
-    "runtimes": {
-      "win32X64": {
-        "signalCli": {
-          "url": "",
-          "sha256": "",
-          "size": 0
+  "runtimeManifest": {
+    "schemaVersion": 1,
+    "keyId": "update-key-1",
+    "createdAt": "2026-06-29T00:32:01.164Z",
+    "signatureEncoding": "base64",
+    "signature": "/rSywrqfNuvRfnP7en+Srqj9DSmexsWJcQZYVdRHfI09guYWoa5IHKUYeQoSpquqt5FDwpmmlRtyDYBJqKTQCg==",
+    "payload": {
+      "schemaVersion": 1,
+      "app": {
+        "latestVersion": "0.1.0",
+        "minimumVersion": "0.1.0",
+        "downloads": {
+          "win32X64": {
+            "url": "",
+            "sha256": "",
+            "size": 0
+          }
         },
-        "java": {
-          "vendor": "Eclipse Temurin",
-          "version": "25.0.3+9-LTS",
-          "url": "",
-          "sha256": "",
-          "size": 0
+        "releaseNotesUrl": ""
+      },
+      "signalCli": {
+        "latestVersion": "0.14.5",
+        "healthCheckTimeoutMs": 15000,
+        "runtimes": {
+          "win32X64": {
+            "signalCli": {
+              "url": "",
+              "sha256": "",
+              "size": 0
+            },
+            "java": {
+              "vendor": "Eclipse Temurin",
+              "version": "25.0.3+9-LTS",
+              "url": "",
+              "sha256": "",
+              "size": 0
+            }
+          }
         }
       }
     }
