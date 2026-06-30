@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T17:05:03.246Z",
+  "generatedAt": "2026-06-30T17:12:06.571Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-06-29T17:05:03.246Z",
+    "createdAt": "2026-06-30T17:12:06.571Z",
     "signatureEncoding": "base64",
-    "signature": "3nwQ4K5EKbQd9+QnV5mOe3X2U6fbQNy1553QnxuemZgkMd+r/cd2nb0xYJT4Y6rWfM/YtVfJWxHiA2lWIARfDA==",
+    "signature": "bvHFo6yuKXgFnvPSsWiLzshs4n+7abgrAdmJEkFQr0Z2RgmsA2/tyfa27v2LHXNoKxJdN9xUv8S2Nnn7RbQaBw==",
     "payload": {
       "schemaVersion": 1,
       "manifestVersion": "builtin-2026-06-29",
@@ -37,6 +37,39 @@
           ],
           "pickStrategy": "first",
           "fallbackStrategy": "none"
+        },
+        "whatsapp.message.outgoing": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"tail-out\"]"
+            },
+            {
+              "selector": "span[aria-label=\"你：\"]"
+            },
+            {
+              "selector": "span[aria-label=\"You:\"]"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.message.outgoingMedia": {
+          "candidates": [
+            {
+              "selector": "[data-testid=\"image-thumb\"]"
+            },
+            {
+              "selector": "[data-testid=\"media-url-provider\"]"
+            },
+            {
+              "selector": "img[src^=\"blob:https://web.whatsapp.com/\"]"
+            },
+            {
+              "selector": "video"
+            }
+          ],
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
         },
         "whatsapp.message.meta": {
           "candidates": [
@@ -203,22 +236,34 @@
           "pickStrategy": "first",
           "fallbackStrategy": "nextCandidate"
         },
-        "whatsapp.media.dropTarget": {
+        "whatsapp.media.fileInput": {
           "candidates": [
             {
-              "selector": "footer div[contenteditable=\"true\"]"
+              "selector": "footer input[type=\"file\"][accept^=\"image\"]"
             },
             {
-              "selector": "div[role=\"textbox\"][contenteditable=\"true\"][aria-placeholder]"
+              "selector": "input[type=\"file\"][accept^=\"image\"]"
             },
             {
-              "selector": "div.copyable-area"
+              "selector": "input[type=\"file\"][multiple]"
             },
             {
-              "selector": "main"
+              "selector": "input[type=\"file\"]"
             }
           ],
-          "pickStrategy": "lastVisible",
+          "pickStrategy": "first",
+          "fallbackStrategy": "nextCandidate"
+        },
+        "whatsapp.media.appendFileInput": {
+          "candidates": [
+            {
+              "selector": "input[type=\"file\"][multiple][accept=\"*\"]"
+            },
+            {
+              "selector": "input[type=\"file\"][multiple]"
+            }
+          ],
+          "pickStrategy": "first",
           "fallbackStrategy": "nextCandidate"
         },
         "whatsapp.media.previewRoot": {
@@ -246,9 +291,6 @@
             },
             {
               "selector": "div[role=\"textbox\"][contenteditable=\"true\"][aria-label=\"Type a message\"]"
-            },
-            {
-              "selector": "div[aria-placeholder][contenteditable=\"true\"][data-lexical-editor=\"true\"]"
             }
           ],
           "pickStrategy": "lastVisible",
@@ -275,7 +317,7 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-06-29T17:05:03.246Z",
+    "createdAt": "2026-06-30T17:12:06.571Z",
     "signatureEncoding": "base64",
     "signature": "EchnqZvrukOXbRzexCo11xx7xkVZdPajOEWYtlaUshXU9xA0qULIauk22fdgQYfvkoDg1uUK157pp+lsnR9FDA==",
     "payload": {
