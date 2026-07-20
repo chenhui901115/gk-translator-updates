@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T05:20:11.412Z",
+  "generatedAt": "2026-07-20T16:41:38.648Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-15T05:20:11.412Z",
+    "createdAt": "2026-07-20T16:41:38.648Z",
     "signatureEncoding": "base64",
     "signature": "DoMOOmMGg9S+mWlgdu0Vgs6txqkj3S5S/3JazmiGHE+6E0x+d2GI9S8JEoW68KJjdIdV69kFCZP1SgAWMSedAw==",
     "payload": {
@@ -320,14 +320,14 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-15T05:20:11.412Z",
+    "createdAt": "2026-07-20T16:41:38.648Z",
     "signatureEncoding": "base64",
-    "signature": "bUgqXFOcvmlrtaio3HglGIFN9t+dvaRZMQEx9wvQLUmikrFPF+O9Qhwe9Xvi1NScQrJ+meEHtrLPNtcL546sDQ==",
+    "signature": "6TBRIk1mUBXqghL4gWd+pOPyP9pXouEcL5T6kiqUv6DfBIqI1erwwy7mrknlFLLT18KXhVZakp0KdGWVz1YsBw==",
     "payload": {
       "schemaVersion": 1,
       "app": {
-        "latestVersion": "0.1.3",
-        "minimumVersion": "0.1.2",
+        "latestVersion": "0.1.5",
+        "minimumVersion": "0.1.4",
         "releaseNotesUrl": "",
         "updatePolicy": "optional"
       },
@@ -347,6 +347,18 @@
               "url": "https://github.com/chenhui901115/gk-translator-updates/releases/download/runtime-signal-cli-0.14.5-java-25.0.3-9/gk-translator-runtime-win32-x64-temurin-jre-25.0.3+9-LTS.zip",
               "sha256": "a183e7280220ad5f6fe94ecbf025a5f10fc5797a0b18c600ed8f813c8158c530",
               "size": 58466005
+            }
+          },
+          "darwinArm64": {
+            "signalCli": {
+              "url": "https://github.com/AsamK/signal-cli/releases/download/v0.14.5/signal-cli-0.14.5.tar.gz",
+              "sha256": "62d38ebfef3988d78f437e7328183b75ee549d111382e66c1af70d3ebd3cd7a7"
+            },
+            "java": {
+              "vendor": "Eclipse Temurin",
+              "version": "25.0.3+9-LTS",
+              "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3%2B9/OpenJDK25U-jre_aarch64_mac_hotspot_25.0.3_9.tar.gz",
+              "sha256": "287cc80077dc2ffd0e5733ba238f92206a84c26bef33e6881a23c213e4c35af4"
             }
           }
         }
