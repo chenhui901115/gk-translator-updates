@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T16:41:38.648Z",
+  "generatedAt": "2026-07-23T15:57:41.765Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-20T16:41:38.648Z",
+    "createdAt": "2026-07-23T15:57:41.765Z",
     "signatureEncoding": "base64",
-    "signature": "DoMOOmMGg9S+mWlgdu0Vgs6txqkj3S5S/3JazmiGHE+6E0x+d2GI9S8JEoW68KJjdIdV69kFCZP1SgAWMSedAw==",
+    "signature": "sIxUME12M3eUWzlHqkQO/4gcUCmEatDu8DnLO0m6iZrl1yTtaoKBjdmVNOguhB3xmqOaob23bK/YWb8fuKcJCg==",
     "payload": {
       "schemaVersion": 1,
       "manifestVersion": "builtin-2026-06-29",
@@ -197,7 +197,7 @@
         "whatsapp.composer.sendButton": {
           "candidates": [
             {
-              "selector": "span[data-icon=\"send\"], [data-icon=\"send\"]"
+              "selector": "footer span[data-icon=\"send\"], footer [data-icon=\"send\"]"
             },
             {
               "selector": "footer button[aria-label*=\"Send\"]"
@@ -207,9 +207,6 @@
             },
             {
               "selector": "footer button[aria-label*=\"傳送\"]"
-            },
-            {
-              "selector": "footer button"
             }
           ],
           "pickStrategy": "firstVisible",
@@ -320,7 +317,7 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-20T16:41:38.648Z",
+    "createdAt": "2026-07-23T15:57:41.765Z",
     "signatureEncoding": "base64",
     "signature": "6TBRIk1mUBXqghL4gWd+pOPyP9pXouEcL5T6kiqUv6DfBIqI1erwwy7mrknlFLLT18KXhVZakp0KdGWVz1YsBw==",
     "payload": {
