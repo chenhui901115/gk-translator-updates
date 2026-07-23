@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T15:57:41.765Z",
+  "generatedAt": "2026-07-23T15:59:55.953Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-23T15:57:41.765Z",
+    "createdAt": "2026-07-23T15:59:55.953Z",
     "signatureEncoding": "base64",
     "signature": "sIxUME12M3eUWzlHqkQO/4gcUCmEatDu8DnLO0m6iZrl1yTtaoKBjdmVNOguhB3xmqOaob23bK/YWb8fuKcJCg==",
     "payload": {
@@ -317,14 +317,14 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-23T15:57:41.765Z",
+    "createdAt": "2026-07-23T15:59:55.953Z",
     "signatureEncoding": "base64",
-    "signature": "6TBRIk1mUBXqghL4gWd+pOPyP9pXouEcL5T6kiqUv6DfBIqI1erwwy7mrknlFLLT18KXhVZakp0KdGWVz1YsBw==",
+    "signature": "Vh1o0YEXqe9rGQFvmiGJ1lpza8TWgjzVuI9OMLfsaDb1/JmYxC/cgq5M+DkdGiA19cMYjm1XXQD7LPj4LoslCg==",
     "payload": {
       "schemaVersion": 1,
       "app": {
-        "latestVersion": "0.1.5",
-        "minimumVersion": "0.1.4",
+        "latestVersion": "0.1.6",
+        "minimumVersion": "0.1.5",
         "releaseNotesUrl": "",
         "updatePolicy": "optional"
       },
