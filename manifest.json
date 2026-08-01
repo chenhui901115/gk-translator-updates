@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-25T20:35:26.843Z",
+  "generatedAt": "2026-08-01T21:43:10.691Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-25T20:35:26.843Z",
+    "createdAt": "2026-08-01T21:43:10.691Z",
     "signatureEncoding": "base64",
-    "signature": "sIxUME12M3eUWzlHqkQO/4gcUCmEatDu8DnLO0m6iZrl1yTtaoKBjdmVNOguhB3xmqOaob23bK/YWb8fuKcJCg==",
+    "signature": "/Z8eRf+JQybiuZaEaj1rfIJCGGpjnjD9yiSMyYMKm2VLyV3EjTQSLpdA68yp7s0HqtlYQpGAUa5XIMykmw7RBw==",
     "payload": {
       "schemaVersion": 1,
       "manifestVersion": "builtin-2026-06-29",
@@ -26,7 +26,7 @@
         "whatsapp.message.tail.out": {
           "candidates": [
             {
-              "selector": "[data-testid=\"tail-out\"]"
+              "selector": "[data-testid~=\"tail-out\"]"
             }
           ],
           "pickStrategy": "first",
@@ -35,7 +35,7 @@
         "whatsapp.message.tail.in": {
           "candidates": [
             {
-              "selector": "[data-testid=\"tail-in\"]"
+              "selector": "[data-testid~=\"tail-in\"]"
             }
           ],
           "pickStrategy": "first",
@@ -44,7 +44,7 @@
         "whatsapp.message.outgoing": {
           "candidates": [
             {
-              "selector": "[data-testid=\"tail-out\"]"
+              "selector": "[data-testid~=\"tail-out\"]"
             },
             {
               "selector": "span[aria-label=\"你：\"]"
@@ -59,10 +59,10 @@
         "whatsapp.message.outgoingMedia": {
           "candidates": [
             {
-              "selector": "[data-testid=\"image-thumb\"]"
+              "selector": "[data-testid~=\"image-thumb\"]"
             },
             {
-              "selector": "[data-testid=\"media-url-provider\"]"
+              "selector": "[data-testid~=\"media-url-provider\"]"
             },
             {
               "selector": "img[src^=\"blob:https://web.whatsapp.com/\"]"
@@ -77,7 +77,7 @@
         "whatsapp.message.meta": {
           "candidates": [
             {
-              "selector": "[data-testid=\"msg-meta\"][role=\"button\"]"
+              "selector": "[data-testid~=\"msg-meta\"][role=\"button\"]"
             }
           ],
           "pickStrategy": "first",
@@ -86,7 +86,7 @@
         "whatsapp.message.text.stable": {
           "candidates": [
             {
-              "selector": "[data-pre-plain-text] [data-testid=\"selectable-text\"]"
+              "selector": "[data-pre-plain-text] [data-testid~=\"selectable-text\"]"
             }
           ],
           "pickStrategy": "all",
@@ -110,7 +110,7 @@
         "whatsapp.message.quoted": {
           "candidates": [
             {
-              "selector": "[data-testid=\"quoted-message\"]"
+              "selector": "[data-testid~=\"quoted-message\"]"
             }
           ],
           "pickStrategy": "first",
@@ -128,7 +128,7 @@
         "whatsapp.accountAvatar.navigationReady": {
           "candidates": [
             {
-              "selector": "[data-testid=\"navbar-item-me-tab-photo\"]"
+              "selector": "[data-testid~=\"navbar-item-me-tab-photo\"]"
             },
             {
               "selector": "[data-navbar-item=\"true\"]"
@@ -140,7 +140,7 @@
         "whatsapp.accountAvatar.image": {
           "candidates": [
             {
-              "selector": "[data-testid=\"navbar-item-me-tab-photo\"] img"
+              "selector": "[data-testid~=\"navbar-item-me-tab-photo\"] img"
             },
             {
               "selector": "button[aria-label=\"自己\"] img"
@@ -269,10 +269,10 @@
         "whatsapp.media.previewRoot": {
           "candidates": [
             {
-              "selector": "[data-testid=\"media-caption-input-container\"]"
+              "selector": "[data-testid~=\"media-caption-input-container\"]"
             },
             {
-              "selector": "[data-testid=\"media-editor-canvas\"]"
+              "selector": "[data-testid~=\"media-editor-canvas\"]"
             },
             {
               "selector": "[role=\"tablist\"] [role=\"tab\"][aria-selected]"
@@ -284,7 +284,7 @@
         "whatsapp.media.captionEditor": {
           "candidates": [
             {
-              "selector": "[data-testid=\"media-caption-input-container\"][contenteditable=\"true\"]"
+              "selector": "[data-testid~=\"media-caption-input-container\"][contenteditable=\"true\"]"
             },
             {
               "selector": "div[role=\"textbox\"][contenteditable=\"true\"][aria-label=\"输入消息\"]"
@@ -317,14 +317,14 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-07-25T20:35:26.843Z",
+    "createdAt": "2026-08-01T21:43:10.691Z",
     "signatureEncoding": "base64",
-    "signature": "XSidoxVL0cslt+h6g+Lq7y2rEJ9tDBb8XZQLvH+S26zTQ11u4ebbuXNX5ontUmnDdGeu3cNnW5FD8ihtTxIbDg==",
+    "signature": "JZ6V0fJLOdWzll9x0lWM8WXHk7mZa2DyD1Fi+1reK7gM1wv3ZsKxCZBEYAEfp1j+Fext7eGKhEke00wDDRxFBg==",
     "payload": {
       "schemaVersion": 1,
       "app": {
-        "latestVersion": "0.1.7",
-        "minimumVersion": "0.1.6",
+        "latestVersion": "0.1.8",
+        "minimumVersion": "0.1.7",
         "releaseNotesUrl": "",
         "updatePolicy": "optional"
       },
