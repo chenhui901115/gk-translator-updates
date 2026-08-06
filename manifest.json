@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T21:43:10.691Z",
+  "generatedAt": "2026-08-06T20:06:20.910Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-01T21:43:10.691Z",
+    "createdAt": "2026-08-06T20:06:20.910Z",
     "signatureEncoding": "base64",
-    "signature": "/Z8eRf+JQybiuZaEaj1rfIJCGGpjnjD9yiSMyYMKm2VLyV3EjTQSLpdA68yp7s0HqtlYQpGAUa5XIMykmw7RBw==",
+    "signature": "kuiJd6A+ZxUdFZPyFDQmxCN9RmvVeDsWzzMWFAhgL0qcyYJYPVcXjggEcZ1h6FFy0+KAoXWtgHpYDFgWIFNeAQ==",
     "payload": {
       "schemaVersion": 1,
-      "manifestVersion": "builtin-2026-06-29",
+      "manifestVersion": "whatsapp-selectors-2026-08-06",
       "selectors": {
         "whatsapp.message.container": {
           "candidates": [
@@ -275,7 +275,7 @@
               "selector": "[data-testid~=\"media-editor-canvas\"]"
             },
             {
-              "selector": "[role=\"tablist\"] [role=\"tab\"][aria-selected]"
+              "selector": "[role=\"tablist\"] [role=\"tab\"][aria-selected]:not([aria-controls=\"chat-list\"]):not([aria-controls=\"chat-list\"] *)"
             }
           ],
           "pickStrategy": "firstVisible",
@@ -317,7 +317,7 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-01T21:43:10.691Z",
+    "createdAt": "2026-08-06T20:06:20.910Z",
     "signatureEncoding": "base64",
     "signature": "JZ6V0fJLOdWzll9x0lWM8WXHk7mZa2DyD1Fi+1reK7gM1wv3ZsKxCZBEYAEfp1j+Fext7eGKhEke00wDDRxFBg==",
     "payload": {
