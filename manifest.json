@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T20:06:20.910Z",
+  "generatedAt": "2026-08-07T17:02:22.994Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-06T20:06:20.910Z",
+    "createdAt": "2026-08-07T17:02:22.994Z",
     "signatureEncoding": "base64",
     "signature": "kuiJd6A+ZxUdFZPyFDQmxCN9RmvVeDsWzzMWFAhgL0qcyYJYPVcXjggEcZ1h6FFy0+KAoXWtgHpYDFgWIFNeAQ==",
     "payload": {
@@ -317,7 +317,7 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-06T20:06:20.910Z",
+    "createdAt": "2026-08-07T17:02:22.994Z",
     "signatureEncoding": "base64",
     "signature": "JZ6V0fJLOdWzll9x0lWM8WXHk7mZa2DyD1Fi+1reK7gM1wv3ZsKxCZBEYAEfp1j+Fext7eGKhEke00wDDRxFBg==",
     "payload": {
