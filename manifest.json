@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T20:54:16.335Z",
+  "generatedAt": "2026-08-11T00:56:44.177Z",
   "selectorManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-10T20:54:16.335Z",
+    "createdAt": "2026-08-11T00:56:44.177Z",
     "signatureEncoding": "base64",
     "signature": "kuiJd6A+ZxUdFZPyFDQmxCN9RmvVeDsWzzMWFAhgL0qcyYJYPVcXjggEcZ1h6FFy0+KAoXWtgHpYDFgWIFNeAQ==",
     "payload": {
@@ -317,9 +317,9 @@
   "runtimeManifest": {
     "schemaVersion": 1,
     "keyId": "update-key-1",
-    "createdAt": "2026-08-10T20:54:16.335Z",
+    "createdAt": "2026-08-11T00:56:44.177Z",
     "signatureEncoding": "base64",
-    "signature": "OrJ83ZATfmOmYnirGyBSFz7A56BNJRV7VIc3Z5nth7PMt5f/GdOVY3xkqlKjoC56MN+MgxxhTXSm6jrSaEm9AQ==",
+    "signature": "zp10GzRwn2tZ5C6e6/4GWCQz2U/E+BnJ/Nf5oBWWrGREfSTjEP/ArKz/qcN69KqsZ/5RXgMTUIlAtDYrSFayAQ==",
     "payload": {
       "schemaVersion": 1,
       "app": {
@@ -330,7 +330,7 @@
       },
       "signalCli": {
         "latestVersion": "0.14.7",
-        "healthCheckTimeoutMs": 15000,
+        "healthCheckTimeoutMs": 30000,
         "runtimes": {
           "win32X64": {
             "signalCli": {
